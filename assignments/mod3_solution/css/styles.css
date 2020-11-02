@@ -1,0 +1,54 @@
+body{
+	background-color: #7A7A7A;
+}
+
+/*** HEADER START ***/
+
+#nav{
+
+  background-color: #6A1C1C;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand h1 { 
+  color: #A9A9A9;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 5px 5px 5px #222;
+}
+.nav-item a > p {
+	text-align: center;
+	font-size: 20px bold;
+	color: black;
+}
+
+
+/*** HEADER END ***/
+
+#sub-header {
+	color: white;
+	margin: 15px;
+	padding: 10px;
+
+}
+.container {
+	background-color: #505050;
+	font-style: italic;
+	color: black;
+	margin-bottom: 50px;
+	 
+}
+.container > h3 {
+	color: white;
+}
+
+@media (max-width: 576px) { 
+	.container{
+		max-width: 490px ;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 50px;
+	}
+
+}
